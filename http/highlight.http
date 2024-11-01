@@ -1,0 +1,9 @@
+###
+POST http://localhost:7979/api/highlight
+Content-Type: application/json
+
+{
+  "author": "Me",
+  "content": "Bible",
+  "title": "Idk, just some test"
+}
