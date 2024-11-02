@@ -15,4 +15,8 @@ public record HighlightResource(@NotBlank String author,
                 .content(content)
                 .build();
     }
+
+    public static HighlightResource from(Highlight highlight) {
+        return new HighlightResource(highlight.author(), highlight.title(), highlight.content());
+    }
 }

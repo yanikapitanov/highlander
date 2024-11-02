@@ -19,7 +19,7 @@ public record Highlight(String author, String title, String content) {
         String auth = findContent(() -> titleAndAuthor.substring(split + 1)
                 .trim()
                 .replaceAll("\\)", ""));
-        String title = findContent(() -> titleAndAuthor.substring(0, split));
+        String title = findContent(() -> titleAndAuthor.substring(0, split).trim());
 
         return Highlight.builder()
                 .author(auth)

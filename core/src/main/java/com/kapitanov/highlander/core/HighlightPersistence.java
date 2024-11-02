@@ -1,13 +1,17 @@
 package com.kapitanov.highlander.core;
 
 import com.kapitanov.highlander.core.domain.Highlight;
-import org.springframework.stereotype.Component;
 
+import java.util.Collection;
 import java.util.List;
 
 public interface HighlightPersistence {
 
     void save(Highlight highlight);
 
-    List<Highlight> findAllByTitle(String title);
+    void saveAll(Collection<Highlight> highlights);
+
+    List<Highlight> findAll();
+
+    long findNumberOfEntries();
 }

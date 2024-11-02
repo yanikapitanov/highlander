@@ -1,14 +1,11 @@
 package com.kapitanov.highlander;
 
+import com.kapitanov.highlander.core.HighlightPersistence;
 import com.kapitanov.highlander.core.HighlightService;
 import com.kapitanov.model.HighlightResource;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.bind.annotation.*;
 
-import java.io.IOException;
+import java.util.List;
 
 @RestController
 @RequestMapping("/api")
@@ -26,8 +23,16 @@ class HighlightController {
     }
 
     @PostMapping("/highlight/file")
-    void createFromFile(MultipartFile file) throws IOException {
-        highlightService.parse(new String(file.getBytes()));
+    void createFromFile(@RequestBody String file) {
+        highlightService.saveHighlightsFromFile(file);
+    }
+
+    @GetMapping("/highlight/random")
+    List<HighlightResource> fetchFiveRandomHighlights() {
+        return highlightService.findFiveRandomHighlights()
+                .stream()
+                .map(HighlightResource::from)
+                .toList();
     }
 }
 

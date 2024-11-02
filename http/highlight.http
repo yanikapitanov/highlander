@@ -7,3 +7,192 @@ Content-Type: application/json
   "content": "Bible",
   "title": "Idk, just some test"
 }
+
+###
+POST http://localhost:7979/api/highlight/file
+Content-Type: application/octet-stream
+
+Unstoppable: The Ultimate Biography of Max Verstappen (Hughes, Mark)
+- Your Highlight on page 83 | Location 1028-1031 | Added on Sunday, September 17, 2023 8:53:07 PM
+
+But that prepared me very well for criticism or praise – because I just didn’t really care. I don’t really care if it’s negative and don’t really care if it’s positive. It doesn’t bring me anything, being arrogant and thinking I can walk on water. And being negative, I’m just going to be upset. I prefer to be in the middle and forget about both sides. Just focus on what you have to do and what you can control.’
+==========
+Unstoppable: The Ultimate Biography of Max Verstappen (Hughes, Mark)
+- Your Highlight on page 110 | Location 1346-1347 | Added on Wednesday, September 20, 2023 5:46:03 PM
+
+It was such a fine line Max was treading, internalising the toughness without assimilating the anger.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 21 | Location 419-421 | Added on Tuesday, September 26, 2023 7:55:29 AM
+
+It is common for a parent to withdraw from their child at a very similar age to when that parent’s parent became unavailable to them. Or a parent will want to pull away emotionally when their child is the same age as they were when they felt alone.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 22 | Location 434-436 | Added on Tuesday, September 26, 2023 7:58:38 AM
+
+This feeling of wanting to push children away, of wanting them to sleep long and to play independently before they are ready so they don’t take up your time, can come about when you’re trying not to feel with your child because they’re such a painful reminder of your childhood. Because of this, you’re unable to surrender to their needs.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 27 | Location 500-506 | Added on Tuesday, September 26, 2023 8:14:54 AM
+
+First, recognize the voice. Don’t engage with it or argue with it. Instead, treat it like somebody awkward who you can shake off if you acknowledge what they’ve said but without colluding with them, by thinking, for example, ‘You are entitled to your opinion.’ Expand your comfort zone. By doing the thing your inner critic says you can’t, you’ll find more confidence. It’s a real thing you can remember when self-doubt creeps in. Being aware of the dangers of passing your inner critic on to your child will give you an extra incentive to be mindful of it. Exercise:
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 29 | Location 531-533 | Added on Tuesday, September 26, 2023 8:18:37 AM
+
+Praise effort, describe what you see and feel and encourage your child without judging. Describing and finding something specific to appreciate is far more encouraging than a non-specific judgement of ‘Great job’ and far, far more useful than criticism.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 41 | Location 679-683 | Added on Wednesday, September 27, 2023 8:40:38 AM
+
+A good rule of thumb when arguing is to do it with ‘I-statements’, not ‘you-statements’, for example, ‘I feel hurt when you don’t answer me when you’re on your phone’, not ‘You’re always ignoring me when you’re on your phone.’ Few of us like to be defined or pigeon-holed – especially negatively – by someone else. If you instead describe how what you hear or see makes you feel, then you are talking about yourself, which is far easier for the other person to hear.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 56 | Location 839-841 | Added on Monday, November 6, 2023 11:17:34 PM
+
+This is what a child needs: for a parent to be a container for their emotions. This means you are alongside them and know and accept what they feel but you are not being overwhelmed by their feelings. This is one of the things psychotherapists do for their clients.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Bookmark on page 58 | Location 873 | Added on Monday, November 6, 2023 11:24:04 PM
+
+
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 70 | Location 1047-1049 | Added on Tuesday, November 14, 2023 9:04:28 AM
+
+When we feel bad, we don’t need to be fixed. We want to be felt with rather than dealt with. We want someone else to understand how we feel so we do not feel lonely with that feeling.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 74 | Location 1101-1103 | Added on Tuesday, November 14, 2023 9:15:05 AM
+
+If you treat your child’s sadness, anger and fears not as negatives to be corrected but as opportunities to learn more about them and to connect with them, then you will deepen your bond with them. Then, there is every likelihood you will increase their capacity for happiness.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 80 | Location 1185-1186 | Added on Friday, November 17, 2023 10:12:01 PM
+
+Avoiding difficult feelings is not how we learn how to deal with them.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 81 | Location 1208-1211 | Added on Friday, November 17, 2023 10:23:25 PM
+
+Be there for the child, be attentive and be mindful about your own discomfort. Be concerned, but do not overreact. Stay calm and do not leave the child alone to cry. Do not distract the child or ‘shush’ them or tell them they aren’t feeling what they are. Keep on listening, offer a hug if it is wanted. After a while the child may find an activity or you may suggest one, but not while they are deep in their distress.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 91 | Location 1318-1318 | Added on Monday, November 20, 2023 9:41:39 PM
+
+Concentrate on what can go right, not the scary stories you hear.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 91 | Location 1321-1322 | Added on Monday, November 20, 2023 9:43:09 PM
+
+The habit of optimism where our children are concerned is necessary. For their sakes, we need to believe they’ll develop and learn and get the hang of things.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 131 | Location 1859-1861 | Added on Thursday, November 23, 2023 7:59:36 AM
+
+If you are parents to a baby and you just want to gaze at your baby and have ‘conversations’ with them made up of gestures and facial expressions, this is exactly what you need to do.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 161 | Location 2292-2294 | Added on Tuesday, November 28, 2023 8:00:59 AM
+
+Get into the habit of being with your child, not doing anything but keeping them company and following their lead. Think about observing and helping them rather than just rescuing. Help them problem-solve rather than doing it for them.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 166 | Location 2364-2365 | Added on Tuesday, November 28, 2023 8:18:33 AM
+
+Don’t interrupt a concentrating child. When a younger child wants to play with you, start them off on the activity they choose. Then, when they get so absorbed they don’t need you, back off.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 166 | Location 2365-2369 | Added on Tuesday, November 28, 2023 8:18:43 AM
+
+With older children, don’t feel you must be the entertainments officer every time your child doesn’t know what to do. When a child is bored, have faith and tell them you have confidence in them that they will find something fun to do. Boredom may be a necessary component of creativity. Do, however, put some time aside for enjoying yourself with your children by sharing activities you enjoy – board games, card games, sports, singing or whatever you like. Children thrive with playmates of all ages.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 172 | Location 2421-2422 | Added on Tuesday, November 28, 2023 8:27:33 AM
+
+It is more useful to think of a situation from the child’s point of view rather than yours.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 173 | Location 2439-2441 | Added on Tuesday, November 28, 2023 8:31:16 AM
+
+Generally, going with what works in the present, which is grounded in reality rather than what you fear may happen in the future, based on fantasy, is a useful maxim to live by with children.
+==========
+Tidy First? (Beck, Kent)
+- Your Highlight on page 23 | Location 230-231 | Added on Saturday, December 16, 2023 10:04:48 PM
+
+Another aspect of the puzzle of software design is figuring out what forces drive it, and what principles to use to respond to those forces.
+==========
+Tidy First? (Beck, Kent)
+- Your Highlight on page 32 | Location 328-330 | Added on Saturday, December 23, 2023 7:04:26 AM
+
+Reorder the code in the file in the order in which a reader (remember, there are many readers for each writer) would prefer to encounter it.
+==========
+Tidy First? (Beck, Kent)
+- Your Highlight on page 34 | Location 342-342 | Added on Saturday, December 23, 2023 7:07:49 AM
+
+Reorder the code so the elements you need to change are adjacent.
+==========
+Tidy First? (Beck, Kent)
+- Your Highlight on page 37 | Location 382-383 | Added on Saturday, December 23, 2023 7:12:10 AM
+
+Big design changes too hard and scary? Take smaller steps. No, smaller. Still scary? No? Good.
+==========
+Tidy First? (Beck, Kent)
+- Your Highlight on page 45 | Location 443-446 | Added on Saturday, December 23, 2023 7:19:12 AM
+
+You see a block of code inside a routine that has an obvious purpose and limited interaction with the rest of the code in the routine. Extract it as a helper routine. Name the routine after the purpose (not how the routine works).
+==========
+Tidy First? (Beck, Kent)
+- Your Highlight on page 47 | Location 472-472 | Added on Saturday, December 23, 2023 7:22:04 AM
+
+The biggest cost of code is the cost of reading and understanding it, not the cost of writing it.
+==========
+Tidy First? (Beck, Kent)
+- Your Highlight on page 47 | Location 476-476 | Added on Saturday, December 23, 2023 7:23:17 AM
+
+To regain clarity, the code must first be mooshed together so new,
+==========
+Tidy First? (Beck, Kent)
+- Your Highlight on page 47 | Location 476-477 | Added on Saturday, December 23, 2023 7:23:29 AM
+
+To regain clarity, the code must first be mooshed together so new, easier-to-understand parts can then be extracted.
+==========
+Tidy First? (Beck, Kent)
+- Your Highlight on page 50 | Location 501-501 | Added on Saturday, December 23, 2023 7:26:47 AM
+
+When you see a comment that says exactly what the code says, remove it.
+==========
+Tidy First? (Beck, Kent)
+- Your Highlight on page 82 | Location 829-832 | Added on Tuesday, January 16, 2024 12:00:55 AM
+
+The forever questions in software design are: When do I start making software design decisions? When do I stop making software design decisions and get on with changing the behavior of the system? How do I make the next decision?
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 144 | Location 2048-2049 | Added on Tuesday, January 23, 2024 11:49:34 AM
+
+This is why it matters to get into the habit of telling your child what is going to happen, then leaving a pause before making something happen.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 174 | Location 2449-2450 | Added on Tuesday, February 6, 2024 7:49:42 PM
+
+almost everything with children is a phase. So it’s fine to go with what works in the present, however odd it seems.
+==========
+The Book You Wish Your Parents Had Read (and Your Children Will Be Glad That You Did) (Perry, Philippa)
+- Your Highlight on page 175 | Location 2457-2459 | Added on Tuesday, February 6, 2024 7:59:47 PM
+
+These are: Being able to tolerate frustration Flexibility Problem-solving skills The ability to see and feel things from other people’s point of view
+==========
+Computer Systems: A Programmer's Perspective (Bryant, Randal)
+- Your Highlight on page 105 | Location 2726-2729 | Added on Tuesday, July 23, 2024 11:23:08 PM
+
+process is the operating system's abstraction for a running program. Multiple processes can run concurrently on the same system, and each process appears to have exclusive use of the hardware. By concurrently, we mean that the instructions of one process are interleaved with the instructions of another process. In most systems, there are more processes to run than there are CPUs to run them.
+==========
+Computer Systems: A Programmer's Perspective (Bryant, Randal)
+- Your Highlight on page 109 | Location 2793-2797 | Added on Tuesday, July 23, 2024 11:34:24 PM
+
+The kernel is the portion of the operating system code that is always resident in memory. When an application program requires some action by the operating system, such as to read or write a file, it executes a special system call instruction, transferring control to the kernel. The kernel then performs the requested operation and returns back to the application program. Note that the kernel is not a separate process. Instead, it is a collection of code and data structures that the system uses to manage all the processes.
+==========
+
+###
+GET localhost:7979/api/highlight/random
+Content-Type: application/json

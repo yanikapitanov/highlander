@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.kapitanov</groupId>
         <artifactId>highlander</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.2.RELEASE</version>
     </parent>
 
     <artifactId>app</artifactId>
@@ -20,18 +20,17 @@
         <dependency>
             <groupId>com.kapitanov</groupId>
             <artifactId>core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.2.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>com.kapitanov</groupId>
             <artifactId>persistence</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.2.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>com.kapitanov</groupId>
             <artifactId>web</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.2.RELEASE</version>
         </dependency>
     </dependencies>
-
 </project>
