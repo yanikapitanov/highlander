@@ -10,6 +10,8 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.List;
 
+import static org.mockito.Mockito.verify;
+
 @ExtendWith(MockitoExtension.class)
 class HighlightServiceTest implements WithAssertions {
     @InjectMocks
@@ -33,9 +35,9 @@ class HighlightServiceTest implements WithAssertions {
                 "It is common for a parent to withdraw from their child at a very similar age to when " +
                         "that parent’s parent became unavailable to them. Or a parent will want to pull away " +
                         "emotionally when their child is the same age as they were when they felt alone.");
-//        List<Highlight> actual = highlightService.saveHighlightsFromFile(highlight);
+        highlightService.saveHighlightsFromFile(highlight);
 
-//        assertThat(actual).containsExactlyInAnyOrder(first, second, third);
+        verify(persistence).saveAll(List.of(first, second, third));
     }
 
     private static String getStringHighlights() {

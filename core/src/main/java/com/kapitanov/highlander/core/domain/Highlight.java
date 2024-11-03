@@ -11,7 +11,7 @@ public record Highlight(String author, String title, String content) {
     private static final BiFunction<Integer, String, String> FIND_AUTHOR = (index, line) -> line.substring(index + 1)
             .trim()
             .replaceAll("\\)", "");
-    private static final BiFunction<Integer, String, String> FIND_TITLE = (i, line) -> line.substring(i + 1);
+    private static final BiFunction<Integer, String, String> FIND_TITLE = (index, line) -> line.substring(0, index).trim();
 
     public static Highlight from(String highlightAsText) {
         List<String> lines = Arrays.stream(highlightAsText.split("\n"))
