@@ -1,5 +1,5 @@
 ###
-POST http://localhost:7979/api/highlight
+POST http://localhost:7979/api/highlights
 Content-Type: application/json
 
 {
@@ -9,7 +9,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:7979/api/highlight/file
+POST http://localhost:7979/api/highlights/file
 Content-Type: application/octet-stream
 
 Unstoppable: The Ultimate Biography of Max Verstappen (Hughes, Mark)
@@ -194,5 +194,5 @@ The kernel is the portion of the operating system code that is always resident i
 ==========
 
 ###
-GET localhost:7979/api/highlight/random
+GET localhost:7979/api/highlights/random
 Content-Type: application/json

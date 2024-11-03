@@ -2,11 +2,16 @@ package com.kapitanov.highlander.core.domain;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Supplier;
+import java.util.function.BiFunction;
 
 import static java.util.function.Predicate.not;
 
 public record Highlight(String author, String title, String content) {
+
+    private static final BiFunction<Integer, String, String> FIND_AUTHOR = (index, line) -> line.substring(index + 1)
+            .trim()
+            .replaceAll("\\)", "");
+    private static final BiFunction<Integer, String, String> FIND_TITLE = (i, line) -> line.substring(i + 1);
 
     public static Highlight from(String highlightAsText) {
         List<String> lines = Arrays.stream(highlightAsText.split("\n"))
@@ -16,20 +21,18 @@ public record Highlight(String author, String title, String content) {
         String quote = lines.getLast();
         int split = titleAndAuthor.lastIndexOf("(");
 
-        String auth = findContent(() -> titleAndAuthor.substring(split + 1)
-                .trim()
-                .replaceAll("\\)", ""));
-        String title = findContent(() -> titleAndAuthor.substring(0, split).trim());
+        String author = findContent(FIND_AUTHOR, split, titleAndAuthor);
+        String title = findContent(FIND_TITLE, split, titleAndAuthor);
 
         return Highlight.builder()
-                .author(auth)
+                .author(author)
                 .title(title)
                 .content(quote)
                 .build();
     }
 
-    private static String findContent(Supplier<String> findContent) {
-        return findContent.get();
+    private static String findContent(BiFunction<Integer, String, String> content, int index, String line) {
+        return content.apply(index, line);
     }
 
     public static Builder builder() {

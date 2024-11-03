@@ -1,4 +1,4 @@
-package com.kapitanov.model;
+package com.kapitanov.highlander.model;
 
 import com.kapitanov.highlander.core.domain.Highlight;
 import jakarta.validation.constraints.NotBlank;
